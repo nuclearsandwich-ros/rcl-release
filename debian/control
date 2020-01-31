@@ -1,0 +1,12 @@
+Source: ros-turbulent-rcl-yaml-param-parser
+Section: misc
+Priority: extra
+Maintainer: Anup Pemmaiah <anup.pemmaiah@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), libyaml-dev, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-libyaml-vendor, ros-turbulent-osrf-testing-tools-cpp, ros-turbulent-rcutils, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rcl-yaml-param-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-dev, ros-turbulent-libyaml-vendor, ros-turbulent-ros-workspace
+Description: Package containing various utility types and functions for C
