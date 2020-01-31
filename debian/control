@@ -1,0 +1,13 @@
+Source: ros-turbulent-rcl
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-osrf-testing-tools-cpp, ros-turbulent-rcl-interfaces, ros-turbulent-rcl-logging-spdlog, ros-turbulent-rcl-yaml-param-parser, ros-turbulent-rcpputils, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rmw-implementation, ros-turbulent-rmw-implementation-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-test-msgs, ros-turbulent-tinydir-vendor, ros-turbulent-tracetools, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rcl-interfaces, ros-turbulent-rcl-logging-spdlog, ros-turbulent-rcl-yaml-param-parser, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rmw-implementation, ros-turbulent-rosidl-generator-c, ros-turbulent-tinydir-vendor, ros-turbulent-tracetools, ros-turbulent-ros-workspace
+Description: The ROS client library common implementation.
+ This package contains an API which builds on the ROS middleware API and is optionally built upon by the other ROS client libraries.
