@@ -1,0 +1,13 @@
+Source: ros-verystable-rcl
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-pytest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-launch, ros-verystable-launch-testing, ros-verystable-launch-testing-ament-cmake, ros-verystable-osrf-testing-tools-cpp, ros-verystable-rcl-interfaces, ros-verystable-rcl-logging-spdlog, ros-verystable-rcl-yaml-param-parser, ros-verystable-rcpputils, ros-verystable-rcutils, ros-verystable-rmw, ros-verystable-rmw-implementation, ros-verystable-rmw-implementation-cmake, ros-verystable-rosidl-generator-c, ros-verystable-test-msgs, ros-verystable-tinydir-vendor, ros-verystable-tracetools, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rcl-interfaces, ros-verystable-rcl-logging-spdlog, ros-verystable-rcl-yaml-param-parser, ros-verystable-rcutils, ros-verystable-rmw, ros-verystable-rmw-implementation, ros-verystable-rosidl-generator-c, ros-verystable-tinydir-vendor, ros-verystable-tracetools, ros-verystable-ros-workspace
+Description: The ROS client library common implementation.
+ This package contains an API which builds on the ROS middleware API and is optionally built upon by the other ROS client libraries.
