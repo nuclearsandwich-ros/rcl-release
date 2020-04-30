@@ -1,0 +1,12 @@
+Source: ros-verystable-rcl-lifecycle
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-lifecycle-msgs, ros-verystable-osrf-testing-tools-cpp, ros-verystable-rcl, ros-verystable-rcutils, ros-verystable-rmw-implementation, ros-verystable-rosidl-generator-c, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rcl-lifecycle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-lifecycle-msgs, ros-verystable-rcl, ros-verystable-rcutils, ros-verystable-rmw-implementation, ros-verystable-rosidl-generator-c, ros-verystable-ros-workspace
+Description: Package containing a C-based lifecycle implementation
