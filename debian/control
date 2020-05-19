@@ -1,0 +1,12 @@
+Source: ros-testing-rcl-yaml-param-parser
+Section: misc
+Priority: optional
+Maintainer: Anup Pemmaiah <anup.pemmaiah@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), libyaml-dev, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-libyaml-vendor, ros-testing-osrf-testing-tools-cpp, ros-testing-rcutils, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rcl-yaml-param-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-dev, ros-testing-libyaml-vendor, ros-testing-ros-workspace
+Description: Parse a YAML parameter file and populate the C data structure.
