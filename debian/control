@@ -1,0 +1,13 @@
+Source: ros-testing-rcl
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-pytest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-launch, ros-testing-launch-testing, ros-testing-launch-testing-ament-cmake, ros-testing-osrf-testing-tools-cpp, ros-testing-rcl-interfaces, ros-testing-rcl-logging-spdlog, ros-testing-rcl-yaml-param-parser, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-implementation, ros-testing-rmw-implementation-cmake, ros-testing-rosidl-runtime-c, ros-testing-test-msgs, ros-testing-tracetools, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rcl-interfaces, ros-testing-rcl-logging-spdlog, ros-testing-rcl-yaml-param-parser, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-implementation, ros-testing-rosidl-runtime-c, ros-testing-tracetools, ros-testing-ros-workspace
+Description: The ROS client library common implementation.
+ This package contains an API which builds on the ROS middleware API and is optionally built upon by the other ROS client libraries.
